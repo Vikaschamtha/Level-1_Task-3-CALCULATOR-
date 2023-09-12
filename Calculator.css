@@ -1,0 +1,65 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+
+.title-text{
+    text-align: center;
+}
+
+.company{
+    height: 15px;
+}
+
+.company p{
+  color: black;
+  font-size: 1rem;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: 800;
+
+}
+
+.input{
+    margin-top: 20px;
+    width: 225px;
+    height: 35px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+
+.container{
+  background-color: gray;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  width: 270px;
+  height: 450px;
+  margin-left: 40rem;
+
+}
+
+
+.row{
+    margin-bottom:5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: rgb(102, 102, 156);
+}
